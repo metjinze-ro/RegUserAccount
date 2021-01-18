@@ -7,7 +7,7 @@
     tools:context=".MainActivity2">
 
     <EditText
-        android:id="@+id/editTextTextMultiLine3"
+        android:id="@+id/nickname_Multiline"
         android:layout_width="190dp"
         android:layout_height="40dp"
         android:layout_marginStart="100dp"
@@ -28,7 +28,7 @@
         android:hint="@string/hiragana_nick"/>
 
     <EditText
-        android:id="@+id/editTextTextPassword1"
+        android:id="@+id/ID_Multiline"
         android:layout_width="190dp"
         android:layout_height="40dp"
         android:layout_marginStart="100dp"
@@ -39,16 +39,16 @@
         android:layout_marginBottom="435dp"
         android:autofillHints=""
         android:ems="10"
-        android:inputType="textPassword"
+        android:hint="@string/any_num_eng"
+        android:inputType="textMultiLine"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="LabelFor"
-        android:hint="@string/any_num_eng"/>
+        tools:ignore="LabelFor" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/new_password_re"
         android:layout_width="190dp"
         android:layout_height="40dp"
         android:layout_marginStart="101dp"
@@ -68,7 +68,7 @@
         android:hint="@string/re_enterpass"/>
 
     <EditText
-        android:id="@+id/editTextTextMultiLine1"
+        android:id="@+id/new_password"
         android:layout_width="190dp"
         android:layout_height="40dp"
         android:layout_marginStart="100dp"
@@ -79,17 +79,17 @@
         android:layout_marginBottom="365dp"
         android:ems="10"
         android:gravity="start|top"
+        android:hint="@string/any_num_eng"
         android:importantForAutofill="no"
-        android:inputType="textMultiLine"
+        android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="LabelFor"
-        android:hint="@string/any_num_eng"/>
+        tools:ignore="LabelFor" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine2"
+        android:id="@+id/name_MultiLine"
         android:layout_width="190dp"
         android:layout_height="40dp"
         android:layout_marginStart="100dp"
@@ -163,7 +163,7 @@
         android:layout_marginBottom="43dp"
         android:text="@string/id2"
         app:layout_constraintBottom_toTopOf="@+id/textView9"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPassword1"
+        app:layout_constraintEnd_toStartOf="@+id/ID_Multiline"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
         tools:ignore="HardcodedText" />
@@ -214,7 +214,7 @@
         android:layout_marginBottom="516dp"
         android:text="@string/nick_name"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextMultiLine3"
+        app:layout_constraintEnd_toStartOf="@+id/nickname_Multiline"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -229,7 +229,7 @@
         android:layout_marginBottom="572dp"
         android:text="@string/name_text"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextMultiLine2"
+        app:layout_constraintEnd_toStartOf="@+id/name_MultiLine"
         app:layout_constraintHorizontal_bias="0.183"
         app:layout_constraintStart_toStartOf="parent" />
 
