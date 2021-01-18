@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">RegUserAccount</string>
+    <string name="title">ログイン画面</string>
+    <string name="login_button">ログイン</string>
+    <string name="account_edit">新規アカウント作成</string>
+    <string name="id">ID</string>
+    <string name="password">password</string>
+    <string name="account_title">アカウント登録</string>
+    <string name="reg_parson">登録</string>
+    <string name="retpage">戻る</string>
+    <string name="id2">ID</string>
+    <string name="password_text">パスワード</string>
+    <string name="password_text2">パスワード</string>
+    <string name="recogn">(確認用)</string>
+    <string name="nick_name">ニックネーム</string>
+    <string name="name_text">氏名</string>
+    <string name="button_push">Button</string>
+    <string name="mypage">マイページ(空)</string>
 </resources>
