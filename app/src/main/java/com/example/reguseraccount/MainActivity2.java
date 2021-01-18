@@ -21,5 +21,8 @@ public class MainActivity2 extends AppCompatActivity {
         ID_Multiline = findViewById(R.id.ID_Multiline);
         new_password = findViewById(R.id.new_password);
         new_password_re = findViewById(R.id.new_password_re);
+
+        Button button = findViewById(R.id.return_button);
+        Button button1 = findViewById(R.id.reg_button);
     }
 }
