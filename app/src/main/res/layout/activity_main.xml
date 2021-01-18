@@ -8,22 +8,22 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/button_login"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
         android:layout_marginBottom="34dp"
         android:text="@string/login_button"
         android:textColor="#535353"
         app:backgroundTint="#FFFFFF"
         app:iconTint="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintBottom_toTopOf="@+id/button_accountCreate"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPassword"
         tools:ignore="HardcodedText" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/editTextPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="91dp"
@@ -31,7 +31,7 @@
         android:layout_marginBottom="26dp"
         android:ems="10"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/button_login"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
         android:autofillHints=""
@@ -67,9 +67,9 @@
         tools:ignore="LabelFor" />
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:id="@+id/button_accountCreate"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
         android:layout_marginStart="68dp"
         android:layout_marginLeft="68dp"
         android:layout_marginEnd="68dp"
@@ -81,7 +81,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/button_login"
         tools:ignore="HardcodedText" />
 
     <TextView
@@ -104,7 +104,7 @@
         android:layout_marginBottom="19dp"
         android:text="@string/password"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"

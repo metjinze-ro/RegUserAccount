@@ -24,7 +24,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="LabelFor" />
+        tools:ignore="LabelFor"
+        android:hint="@string/hiragana_nick"/>
 
     <EditText
         android:id="@+id/editTextTextPassword1"
@@ -43,7 +44,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="LabelFor" />
+        tools:ignore="LabelFor"
+        android:hint="@string/any_num_eng"/>
 
     <EditText
         android:id="@+id/editTextTextPassword2"
@@ -62,7 +64,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="LabelFor" />
+        tools:ignore="LabelFor"
+        android:hint="@string/re_enterpass"/>
 
     <EditText
         android:id="@+id/editTextTextMultiLine1"
@@ -82,7 +85,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="LabelFor" />
+        tools:ignore="LabelFor"
+        android:hint="@string/any_num_eng"/>
 
     <EditText
         android:id="@+id/editTextTextMultiLine2"
@@ -102,7 +106,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="LabelFor" />
+        tools:ignore="LabelFor"
+        android:hint="@string/your_name"/>
 
     <TextView
         android:id="@+id/textView2"

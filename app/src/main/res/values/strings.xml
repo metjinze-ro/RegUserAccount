@@ -16,4 +16,8 @@
     <string name="name_text">氏名</string>
     <string name="button_push">Button</string>
     <string name="mypage">マイページ(空)</string>
+    <string name="re_enterpass">パスワードの再入力</string>
+    <string name="any_num_eng">任意の英数字</string>
+    <string name="hiragana_nick">たろちゃん</string>
+    <string name="your_name">山本太郎</string>
 </resources>
