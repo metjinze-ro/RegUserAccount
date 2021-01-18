@@ -1,6 +1,8 @@
 package com.example.reguseraccount;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.widget.Button;
 import android.widget.EditText;
 import android.os.Bundle;
@@ -24,5 +26,13 @@ public class MainActivity2 extends AppCompatActivity {
 
         Button button = findViewById(R.id.return_button);
         Button button1 = findViewById(R.id.reg_button);
+        button.setOnClickListener(v -> {
+            Intent intent = new Intent(getApplication(),MainActivity.class);
+            startActivity(intent);
+        });
+        button1.setOnClickListener(v -> {
+            Intent intent = new Intent(getApplication(),MainActivity3.class);
+            startActivity(intent);
+        });
     }
 }
